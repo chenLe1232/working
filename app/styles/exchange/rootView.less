@@ -1,0 +1,69 @@
+@import './chartArea.less';
+@import './depthArea.less';
+@import './fillsArea.less';
+
+.background(@height, @top, @right, @bottom, @left) {
+  background: #12151B;
+  margin: @top @right @bottom @left;
+  height: @height;
+}
+.flex-col-1 {
+  .page-exchange-container {
+    .page-exchange-content {
+      flex: 1;
+      height: 100%;
+      max-height: calc(100% - 238px);
+      .page-deal-container {
+        width: 260px;
+        height: 100%;
+        margin: 0px 4px;
+        overflow: hidden;
+        .page-buy-sell {
+          height: 50%;
+          .background(50%, 0px, 0px, 4px, 0px);
+          overflow: hidden;
+        }
+        .page-lastest {
+          height: 50%;
+          margin: 0;
+          background: #12151B;
+        }
+      }
+    }
+    .page-data-table {
+      .background(232px, 4px, 4px, 0px, 0px);
+    }
+  }
+  .page-order-container {
+    width: 260px;
+    .page-order-content {
+      flex: 1;
+      margin: 0px 0px 4px 0px;
+      background: #12151B;
+    }
+    .page-earnest-content {
+      .background(126px, 0px, 0px, 4px, 0px)
+    }
+    .page-asset-content {
+      .background(188px, 0px, 0px, 0px, 0px)
+    }
+  }
+}
+.flex-col-1 .relative {
+  max-height: 157px;
+  height: 157px;
+  overflow: auto;
+}
+.page-data-table {
+  position: relative;
+  .page-current {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    color: #F0B90A;
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+  }
+}
+

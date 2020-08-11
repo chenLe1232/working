@@ -1,0 +1,47 @@
+[
+  {
+    "id": "exchange.chartTopBar.original",
+    "description": "基本版",
+    "defaultMessage": "Original"
+  },
+  {
+    "id": "exchange.chartTopBar.tradingView",
+    "description": "专业版",
+    "defaultMessage": "TradingView"
+  },
+  {
+    "id": "exchange.chartTopBar.depth",
+    "description": "深度图",
+    "defaultMessage": "Depth"
+  },
+  {
+    "id": "exchange.kline.realtime",
+    "description": "分时",
+    "defaultMessage": "Time"
+  },
+  {
+    "id": "exchange.kline.optionMinute",
+    "description": "{value} 分",
+    "defaultMessage": "{value} Min"
+  },
+  {
+    "id": "exchange.kline.optionHour",
+    "description": "{value} 小时",
+    "defaultMessage": "{value} Hour"
+  },
+  {
+    "id": "exchange.kline.day",
+    "description": "日线",
+    "defaultMessage": "Day"
+  },
+  {
+    "id": "exchange.kline.week",
+    "description": "周线",
+    "defaultMessage": "Week"
+  },
+  {
+    "id": "exchange.kline.month",
+    "description": "月线",
+    "defaultMessage": "Month"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "futures.table.position.thead1",
+    "defaultMessage": "Futures",
+    "description": "合约"
+  },
+  {
+    "id": "futures.table.deal.time",
+    "defaultMessage": "Time",
+    "description": "时间"
+  },
+  {
+    "id": "futures.table.deal.type",
+    "defaultMessage": "Type",
+    "description": "类型"
+  },
+  {
+    "id": "futures.table.deal.direction",
+    "defaultMessage": "Direction",
+    "description": "方向"
+  },
+  {
+    "id": "futures.table.deal.volume",
+    "defaultMessage": "Volume",
+    "description": "成交量"
+  },
+  {
+    "id": "futures.table.deal.average",
+    "defaultMessage": "Average",
+    "description": "成交均价"
+  },
+  {
+    "id": "futures.table.deal.fee",
+    "defaultMessage": "Fees",
+    "description": "手续费"
+  },
+  {
+    "id": "futures.table.position.thead9",
+    "defaultMessage": "Realized",
+    "description": "已实现盈亏"
+  },
+  {
+    "id": "futures.table.direction.more",
+    "defaultMessage": "More",
+    "description": "开多"
+  },
+  {
+    "id": "futures.table.direction.empty",
+    "defaultMessage": "Empty",
+    "description": "开空"
+  },
+  {
+    "id": "futures.table.price",
+    "defaultMessage": "Price",
+    "description": "成交价"
+  }
+]

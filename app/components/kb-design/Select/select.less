@@ -1,0 +1,57 @@
+// 样式先写死吧  后期再看具体是什么样的一个情况
+.kb-select{
+  position: relative;
+}
+
+.select-title{
+  position: relative;
+  width: 62px;
+  height: 20px;
+  padding: 9px 6px;
+  background: transparent;
+  border: 1px solid #4B515C;
+  border-radius: 2px;
+  margin: 8px;
+  .title-text{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #848D9B;
+  }
+  .select-icon{
+    width: 12px;
+    // height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2px;
+    cursor: pointer;
+  }
+}
+
+.kb-options{
+  display: none;
+  position: absolute;
+  width: 62px;
+  top: 21px;
+  left: 0;
+  padding: 6px;
+  background-color: #4B515C;
+  list-style: none;
+  z-index: 1000;
+  &.menu-open{
+    display: block;
+  }
+  .kb-option-item{
+    font-size: 12px;
+    line-height: 18px;
+    padding:  6px;
+    // height: 18px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    background-color: #4B515C;
+    &.is-active{
+      color: #F0B90A;
+    }
+  }
+}

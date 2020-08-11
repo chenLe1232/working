@@ -1,0 +1,96 @@
+.funds{
+  position: relative;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  .funds-title{
+    color: #848D9B;
+  }
+  .funds-detail{
+    color: #ffffff;
+    float: right;
+  }
+}
+
+.offer-type{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  .limit-price{
+    width: 162px;
+    height: 38px;
+    // 避免子元素被自动压缩 宽度非预期所需要
+    flex-shrink: 0;
+  }
+}
+
+.kb-tabs{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 0 8px;
+  box-shadow:0px 1px 0px 0px rgba(255,255,255,0.06);
+  .price{
+    font-size: 14px;
+    color: #ffffff;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight: 400;
+    line-height: 40px;
+    cursor: pointer;
+  }
+}
+
+.drop-active-show{
+  font-size: 14px;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  line-height: 40px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.drop-icon{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+  .icon{
+   
+  }
+}
+
+.drop-detail{
+  position: absolute;
+  text-align: center;
+  width: 80px;
+  top: 20px;
+  left: -65px;
+  border-radius: 2px;
+  background:#2c2f35;
+  display: none;
+  z-index: 200;
+  cursor: pointer;
+  .title{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    &:hover{
+      background: #484d56;
+      color: #FBD93A;
+    }
+  }
+  &.drop-detail-show{
+    display: block;
+  }
+}
+
+.is-show{
+  border-bottom: 2px solid #FBD93A ;
+}
+
+.kb-tabs-content{
+  margin-top: 8px;
+}

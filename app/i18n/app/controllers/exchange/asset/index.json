@@ -1,0 +1,32 @@
+[
+  {
+    "id": "futures.asset.detail",
+    "defaultMessage": "Assets",
+    "description": "资产"
+  },
+  {
+    "id": "futures.asset.deposite",
+    "defaultMessage": "Deposit",
+    "description": "充值"
+  },
+  {
+    "id": "futures.asset.withdraw",
+    "defaultMessage": "Withdraw",
+    "description": "提现"
+  },
+  {
+    "id": "futures.asset.btcAvaiable",
+    "defaultMessage": "BTC Avaiable",
+    "description": "BTC 可用"
+  },
+  {
+    "id": "futures.asset.usdtAvaiable",
+    "defaultMessage": "USDT Avaiable",
+    "description": "USDT 可用"
+  },
+ {
+    "id": "futures.asset.unrealize",
+    "defaultMessage": "Unrealized profit-loss",
+    "description": "未实现盈亏"
+  }
+]

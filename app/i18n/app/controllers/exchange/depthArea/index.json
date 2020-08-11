@@ -1,0 +1,17 @@
+[
+  {
+    "id": "depth.price",
+    "defaultMessage": "Price",
+    "description": "价格"
+  },
+  {
+    "id": "depth.amount",
+    "defaultMessage": "Amount",
+    "description": "数量"
+  },
+  {
+    "id": "depth.sum",
+    "defaultMessage": "Sum",
+    "description": "金额"
+  }
+]

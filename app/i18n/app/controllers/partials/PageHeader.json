@@ -1,0 +1,72 @@
+[
+  {
+    "id": "futures.header.exchange",
+    "defaultMessage": "Exchange",
+    "description": "币币交易"
+  },
+  {
+    "id": "futures.header.margin",
+    "defaultMessage": "Margin",
+    "description": "合约交易"
+  },
+  {
+    "id": "futures.header.otc",
+    "defaultMessage": "OTC",
+    "description": "法币交易"
+  },
+  {
+    "id": "futures.header.activities",
+    "defaultMessage": "Activities",
+    "description": "活动"
+  },
+  {
+    "id": "futures.header.download",
+    "defaultMessage": "Donwload",
+    "description": "下载"
+  },
+  {
+    "id": "futures.header.scan",
+    "defaultMessage": "Scan Code to Download App",
+    "description": "扫描二维码下载App"
+  },
+  {
+    "id": "futures.header.tool",
+    "defaultMessage": "Tools",
+    "description": "工具"
+  },
+  {
+    "id": "futures.header.help",
+    "defaultMessage": "Help Center",
+    "description": "帮助中心"
+  },
+  {
+    "id": "futures.header.feedback",
+    "defaultMessage": "Feedback",
+    "description": "问题反馈"
+  },
+  {
+    "id": "futures.header.api",
+    "defaultMessage": "Api Docs",
+    "description": "Api 文档"
+  },
+  {
+    "id": "futures.header.login",
+    "defaultMessage": "Sign In",
+    "description": "登录"
+  },
+  {
+    "id": "futures.header.register",
+    "defaultMessage": "Sign Up",
+    "description": "注册"
+  },
+  {
+    "id": "futures.header.signout",
+    "defaultMessage": "Sign Out",
+    "description": "退出登录"
+  },
+  {
+    "id": "futures.header.usercenter",
+    "defaultMessage": "User Center",
+    "description": "用户中心"
+  }
+]

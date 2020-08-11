@@ -1,0 +1,54 @@
+@import '../styles//variables.less';
+@import '../styles//mixin.less';
+
+// 基础样式
+.btn{
+  position: relative;
+  display: inline-block;
+  font-weight: @btn-font-weight;
+  font-size: @btn-font-size;
+  line-height: @btn-line-height;
+  color: @body-color;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  background-image: none;
+  border: @btn-border-width solid transparent;
+  padding: @btn-padding-y @btn-padding-x;
+  font-family: @btn-font-family;
+  border-radius: @btn-border-radius;
+  cursor: pointer;
+  // 给个默认边距
+  margin: 8px 0 8px 8px;
+  &[disabled]{
+    cursor: not-allowed;
+    opacity: @btn-disabled-opacity;
+    box-shadow: none;
+    > * {
+      pointer-events: none;
+    }
+  }
+}
+
+.btn-lg {
+  .button-size(@btn-padding-x-lg,@btn-padding-y-lg, @btn-font-size-lg, @btn-border-radius-lg);
+}
+
+.btn-sm {
+  .button-size(@btn-padding-x-sm,@btn-padding-y-sm, @btn-font-size-sm, @btn-border-radius-sm);
+}
+
+.btn-primary {
+  .button-style(@primary, @primary, @white)
+}
+
+.btn-danger {
+  .button-style(@danger, @danger, @white)
+}
+
+.btn-default {
+  .button-style(@transparent, @yellow-100, @yellow-100);
+}
+.btn-link{
+  text-decoration: none;
+}

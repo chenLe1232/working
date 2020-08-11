@@ -1,0 +1,481 @@
+html.theme-dark .chart-page {
+  background: #12151B;
+}
+
+html.theme-dark .chart-page body {
+  color: #7e8799;
+}
+
+/*.chart-page .pane-legend-icon-container svg {*/
+  /*fill: #7E8799;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button {*/
+  /*background-color: transparent;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button .side {*/
+  /*left: 26px;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button .main.text-as-icon {*/
+  /*color: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button .main svg {*/
+  /*fill: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button .side {*/
+  /*!* fill: #A2AAB8; *!*/
+  /*opacity: 0;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button.selected,*/
+/*.chart-page .tv-side-toolbar .tools-group .button:hover,*/
+/*.chart-page .tv-side-toolbar .tools-group .button:active {*/
+  /*background-color: transparent;*/
+  /*border: 1px solid transparent;*/
+/*}*/
+
+
+/*.chart-page .tv-side-toolbar .tools-group .button:hover .main svg,*/
+/*.chart-page .tv-side-toolbar .tools-group .button:active .main svg {*/
+  /*fill: #D7DFED;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button.selected svg {*/
+  /*fill: #D7DFED;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button.selected .main.text-as-icon,*/
+/*.chart-page .tv-side-toolbar .tools-group .button:hover .main.text-as-icon,*/
+/*.chart-page .tv-side-toolbar .tools-group .button:active .main.text-as-icon {*/
+  /*color: #D7DFED;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button.selected .side,*/
+/*.chart-page .tv-side-toolbar .tools-group .button:hover .side,*/
+/*.chart-page .tv-side-toolbar .tools-group .button:active .side {*/
+  /*border-left: 1px solid transparent;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button.selected .side svg {*/
+  /*opacity: 0;*/
+  /*fill: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button.open {*/
+  /*border: 1px solid transparent;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button.open .side {*/
+  /*opacity: 1;*/
+  /*background: transparent;*/
+  /*border: 1px solid transparent;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button.open .side svg {*/
+  /*fill: #A2AAB8;*/
+  /*transform: rotate(180deg);*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button:active svg {*/
+  /*fill: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .charts-popup-list {*/
+  /*background-color: #181b2a;*/
+  /*color: #A2AAB8;*/
+  /*border-color: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .charts-popup-list .separator {*/
+  /*border-top: 1px solid #c1c8ec;*/
+/*}*/
+
+/*.chart-page .charts-popup-list .item {*/
+  /*background-color: #FFF;*/
+  /*color: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .charts-popup-list .item.active {*/
+  /*background-color: #2c3b59;*/
+  /*color: #D7DFED;*/
+/*}*/
+
+/*.chart-page .charts-popup-list .icon-wrap svg {*/
+  /*fill: #7E8799;*/
+/*}*/
+
+/*.chart-page .list-inner .item {*/
+  /*background-color: #FFF;*/
+/*}*/
+
+/*.chart-page .list-inner .item.active {*/
+  /*background-color: #EDF5FB;*/
+/*}*/
+
+/*.chart-page .list-inner .item.active svg {*/
+  /*fill: #D7DFED;*/
+/*}*/
+
+/*.chart-page .list-inner .item.active span.title {*/
+  /*color: #D7DFED;*/
+/*}*/
+
+/*.chart-page .list-inner .item span.title {*/
+  /*color: #7E8799;*/
+/*}*/
+
+/*.chart-page .favored-list-container span:hover {*/
+  /*background-color: #2C3B59;*/
+/*}*/
+
+/*.chart-page .tv-floating-toolbar {*/
+  /*background-color: #FFF;*/
+  /*border-color: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper .tv-floating-toolbar__drag,*/
+/*.chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper input {*/
+  /*background-color: #FFF;*/
+/*}*/
+
+/*.chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper .tv-floating-toolbar__drag svg,*/
+/*.chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper input svg {*/
+  /*fill: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper .tv-floating-toolbar__widget {*/
+  /*border-color: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper .tv-floating-toolbar__widget svg {*/
+  /*fill: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .apply-common-tooltip {*/
+  /*background-color: transparent;*/
+  /*border: 1px solid transparent;*/
+  /*color: #61688A;*/
+/*}*/
+
+/*.chart-page .apply-common-tooltip:before {*/
+  /*border: 1px solid transparent;*/
+/*}*/
+
+/*.chart-page .chart-page .layout__area--center .chart-container.active {*/
+  /*border: 1px solid transparent !important;*/
+  /*background: transparent;*/
+  /*outline: 3px dashed green;*/
+/*}*/
+
+/*.chart-page .chart-controls-bar {*/
+  /*background-color: transparent;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button:hover,*/
+/*.chart-page .header-chart-panel .tools-group .button:hover {*/
+  /*border: 1px solid transparent;*/
+  /*color: #D7DFED;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .button:hover,*/
+/*.chart-page .header-chart-panel .button:hover {*/
+  /*border: 1px solid transparent;*/
+  /*color: #D7DFED;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .group,*/
+/*.chart-page .header-chart-panel .group {*/
+  /*float: left;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .group .button,*/
+/*.chart-page .header-chart-panel .group .button {*/
+  /*font-weight: normal;*/
+  /*color: #A2AAB8;*/
+  /*cursor: pointer;*/
+/*}*/
+
+/*.chart-page .header-chart-panel .group .iconed {*/
+  /*padding: 4px 8px;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .group .button svg,*/
+/*.chart-page .header-chart-panel .group .button svg {*/
+  /*fill: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .group .button:hover,*/
+/*.chart-page .header-chart-panel .group .button:hover {*/
+  /*background: transparent;*/
+  /*border-bottom: 0px;*/
+  /*color: #7E8799;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .group .button:hover svg,*/
+/*.chart-page .header-chart-panel .group .button:hover svg {*/
+  /*fill: #7E8799;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .group .button:active,*/
+/*.chart-page .header-chart-panel .group .button:active {*/
+  /*background: transparent !important;*/
+  /*border-bottom: 0px;*/
+  /*color: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .group .button:active svg,*/
+/*.chart-page .header-chart-panel .group .button:active svg {*/
+  /*fill: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .group .button.selected,*/
+/*.chart-page .header-chart-panel .group .button.selected {*/
+  /*background: rgba(14, 140, 245, 0.2) !important;*/
+  /*border-bottom: 0px;*/
+  /*color: #D7DFED;*/
+  /*border-radius: 4px;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .group .button.selected svg,*/
+/*.chart-page .header-chart-panel .group .button.selected svg {*/
+  /*fill: #D7DFED;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .header-group-fullscreen,*/
+/*.chart-page .header-chart-panel .header-group-fullscreen {*/
+  /*float: right;*/
+  /*padding-right: 5px;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .header-group-properties,*/
+/*.chart-page .tv-side-toolbar .header-group-indicators,*/
+/*.chart-page .header-chart-panel .header-group-properties,*/
+/*.chart-page .header-chart-panel .header-group-indicators {*/
+  /*float: none;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group:not(:first-child):not(.no-delimiter):before {*/
+  /*background: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .button svg {*/
+  /*fill: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar {*/
+  /*border-right: 1px solid transparent;*/
+  /*background-color: transparent;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button.selected .side {*/
+  /*border-left: 1px solid transparent;*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button.selected .side,*/
+/*.chart-page .tv-side-toolbar .tools-group .button.selected .main {*/
+  /*background: transparent;*/
+/*}*/
+
+/*.chart-page .chart-container {*/
+  /*background-color: transparent;*/
+  /*border: 1px solid transparent;*/
+/*}*/
+
+/*.chart-page .tv-close-panel {*/
+  /*background-color: #A2AAB8;*/
+  /*border: none;*/
+/*}*/
+
+/*.chart-page .button {*/
+  /*background-color: transparent;*/
+  /*border-color: transparent;*/
+/*}*/
+
+/*.chart-page .button:hover {*/
+  /*background-color: #A2AAB8;*/
+/*}*/
+
+/*.chart-page .button.selected,*/
+/*.chart-page .button.active {*/
+  /*background-color: transparent !important;*/
+  /*border: 1px solid transparent;*/
+
+/*}*/
+
+/*.chart-page .button.selected svg,*/
+/*.chart-page .button.active svg {*/
+  /*fill: transparent;*/
+/*}*/
+
+/*.feature-no-touch ._tv-dialog .button:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch ._tv-dialog .custom-select .switcher:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch ._tv-dialog .favored-list-container span:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch ._tv-dialog .submenu:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .bottom-widgetbar-content.backtesting .button:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .bottom-widgetbar-content.backtesting .custom-select .switcher:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .bottom-widgetbar-content.backtesting .favored-list-container span:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .bottom-widgetbar-content.backtesting .submenu:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .header-chart-panel .button:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .header-chart-panel .custom-select .switcher:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .header-chart-panel .favored-list-container span:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .header-chart-panel .submenu:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .properties-toolbar .button:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .properties-toolbar .custom-select .switcher:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .properties-toolbar .favored-list-container span:not(.disabled):not(.selected):hover:before,*/
+/*.feature-no-touch .properties-toolbar .submenu:not(.disabled):not(.selected):hover:before {*/
+  /*border: 0px;*/
+/*}*/
+
+/*.pane-legend-line.pane-legend-wrap.main .pane-legend-item-value-wrap span {*/
+  /*color: #61688a;*/
+/*}*/
+
+/*.header-chart-panel .button {*/
+  /*font-size: 12px;*/
+  /*padding: 4px 8px;*/
+/*}*/
+
+/*body,*/
+/*html {*/
+  /*font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',*/
+    /*'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',*/
+    /*'Segoe UI Emoji', 'Segoe UI Symbol';*/
+/*}*/
+
+/*!* -------- Mobile 隐藏 高开低收 -------- *!*/
+/*@media only screen and (max-width: 500px) {*/
+  /*.pane-legend {*/
+    /*display: none;*/
+  /*}*/
+
+  /*.pane-controls {*/
+    /*display: none !important;*/
+  /*}*/
+/*}*/
+
+/*.chart-page .tv-side-toolbar .tools-group .button:hover .side {*/
+  /*animation: fadeInRight .2s .2s ease-in-out both;*/
+  /*animation-fill-mode: forwards;*/
+/*}*/
+
+/*.tv-side-toolbar {*/
+  /*overflow: hidden;*/
+/*}*/
+
+/*@keyframes fadeInRight {*/
+  /*0% {*/
+    /*opacity: 0;*/
+    /*-webkit-transform: translateX(20px)*/
+  /*}*/
+
+  /*100% {*/
+    /*opacity: 1;*/
+    /*-webkit-transform: translateX(0)*/
+  /*}*/
+/*}*/
+
+/* .chart-page .js-rootresizer__contents .header-chart-panel {
+  display: block !important;
+}
+
+.chart-page .js-rootresizer__contents .layout__area--left {
+  display: block !important;
+  height: 100%;
+} */
+
+
+/* body.chart-page {
+  background: #FFF;
+} */
+
+/* .chart-markup-table tr:first-child .pane div:first-child {
+  width: calc(100% - 52px) !important;
+  margin-left: 52px;
+  height: calc(100% - 35px) !important;
+  margin-top: 35px;
+}
+
+.chart-markup-table tr:nth-last-child(2) .pane div:first-child {
+  width: calc(100% - 52px) !important;
+  margin-left: 52px;
+} */
+
+/***version 1.14 start***/
+html.theme-dark .chart-page .layout__area--top .group-wWM3zP_M- .wrap-18oKCBRc- .white-button{
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #7e8799;
+  cursor: pointer;
+}
+html.theme-dark .chart-page .layout__area--top .group-wWM3zP_M- .wrap-18oKCBRc- .white-button:hover {
+  border-bottom: 0px;
+  color:#F0B90A;
+}
+html.theme-dark .chart-page .layout__area--top .group-wWM3zP_M- .wrap-18oKCBRc- .selected{
+  color: #F0B90A;
+  border-bottom: 0px;
+  border-radius: 4px;
+}
+
+html.theme-dark .group-2JyOhh7Z-,
+html.theme-dark .group-wWM3zP_M- {
+   background-color: #12151B;
+}
+html.theme-dark .inner-1xuW-gY4- {
+  background-color: #191d2b;
+}
+
+html.theme-dark .button-263WXsg-- .icon-1Y-3MM9F-{
+  color: #7e8799;
+}
+html.theme-dark .button-263WXsg--.isActive-2mI1-NUL- .icon-1Y-3MM9F-{
+  color: #F0B90A;
+}
+html.theme-dark .button-263WXsg-- .icon-1Y-3MM9F-.hovered--MYZioUu-, html.feature-no-touch.theme-dark .button-263WXsg-- .icon-1Y-3MM9F-:hover, html.feature-no-touch.theme-dark .button-263WXsg-- .icon-1Y-3MM9F-:active,html.feature-touch.theme-dark .button-263WXsg-- .icon-1Y-3MM9F-:active{ color: #F0B90A; }
+html.theme-dark .feature-no-touch .button-263WXsg-- .icon-1Y-3MM9F-:hover{
+  color: #F0B90A;
+}
+html.theme-dark .button-2ioYhFEY-.isInteractive-20uLObIc-{
+  color: #61688a;
+  font-size: 12px;
+  cursor: pointer;
+}
+html.feature-no-touch.theme-dark .button-2ioYhFEY-.isInteractive-20uLObIc-:hover{
+  color: #F0B90A;
+}
+html.theme-dark .button-2ioYhFEY-.isInteractive-20uLObIc-.isOpened-p-Ume5l9-{
+  background: transparent;
+  color: #F0B90A;
+}
+
+html.theme-dark .container-3_8ayT2Q- .background-Q1Fcmxly-{
+  fill: #131722;
+  stroke: #464646;
+}
+html.theme-dark .container-3_8ayT2Q- .arrow-WcYWFXUn-{
+  stroke: #9db2bd;
+}
+
+html.theme-dark .pane-separator .handle {
+  height: 1px;
+  background-color: #7e8799;
+}
+html.theme-dark .chart-page .chart-container-border,
+html.theme-dark .chart-page .drawingToolbar-U3_QXRof-{
+  background-color: transparent;
+}
+
+html.theme-dark .chart-page .pane-legend .pane-legend-minbtn .expand,
+html.theme-dark .chart-page .pane-legend .pane-legend-icon .expand {
+  fill: #7e8799;
+}
+html.theme-dark .loading-indicator {
+  background: #12151B;
+}
+
+/***version 1.14 end**/

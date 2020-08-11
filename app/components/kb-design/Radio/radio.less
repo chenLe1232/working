@@ -1,0 +1,52 @@
+.kb-radio-group{
+  width: 200px;
+  display: flex;
+  margin: 20px 10px 20px 0;
+  /*justify-content: center; */
+  flex-wrap: wrap;
+  .kb-radio{
+    width: 80px;
+    /* cursor: pointer; */
+    .kb-radio-input{
+      width: 16px;
+      height: 16px;
+    }
+    .kb-detail{
+      font-size: 12px;
+      margin-left: 4px;
+      height: 18px;
+      vertical-align: top;
+      font-family:PingFangSC-Regular,PingFang SC;
+      color: #FFFFFF;
+    }
+    i{
+      position: absolute;
+      margin-left: -14px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 1px solid #FFFFFF;
+      &::after{
+        content: "";
+        position: absolute;
+        margin-left: 2px;
+        margin-top: 2px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+      
+      }
+    }
+  }
+}
+input[type="radio"]{
+  margin: 0;
+  -webkit-appearance: none;
+  outline: none;
+}
+input[type="radio"]:checked + i{
+  border: 1px solid #F0B90A;
+  &::after{
+    background:#F0B90A;
+  }
+}

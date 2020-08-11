@@ -1,0 +1,32 @@
+[
+  {
+    "id": "topBar.price",
+    "defaultMessage": "Mark",
+    "description": "标记价格"
+  },
+  {
+    "id": "topBar.FundingRate",
+    "defaultMessage": "Funding Rate",
+    "description": "资金费率"
+  },
+  {
+    "id": "topBar.range",
+    "defaultMessage": "Change",
+    "description": "24涨跌"
+  },
+  {
+    "id": "topBar.high",
+    "defaultMessage": "24H High",
+    "description": "24高"
+  },
+  {
+    "id": "topBar.low",
+    "defaultMessage": "24H Low",
+    "description": "24低"
+  },
+  {
+    "id": "topBar.volume",
+    "defaultMessage": "24H Volume",
+    "description": "24量"
+  }
+]

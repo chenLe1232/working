@@ -1,0 +1,22 @@
+.placeholder{
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  background: #F0B90A;
+  position: relative;
+  border-radius: 50%;
+  top: -46px;
+  left: 97px;
+  &::after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 3px;
+    height: 8px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: block;
+  }
+}

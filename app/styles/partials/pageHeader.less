@@ -1,0 +1,219 @@
+.animation {
+  animation: dropdowns 200ms linear forwards;
+  @keyframes dropdowns {
+    0% {
+      transform: translate(0,-4%);
+      opacity: 0.4;
+    }
+    100% {
+      transform: translate(0,0);
+      opacity: 1;
+    }
+  }
+}
+.page-header-container {
+  height: 48px;
+  background: #171A22;
+  color: #fff; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.page-left-container, .page-right-container {
+  .header-link {
+    min-width: 60px;
+    height: 48px;
+    margin: 0 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .header-link:hover {
+    background: rgba(255, 255, 255, 0.03);
+  }
+}
+.page-left-container {
+  margin-left: 16px;
+}
+.page-right-container {
+  margin-right: 16px;
+  .header-linkBtn {
+    text-align: center;
+    color: #212733;
+    line-height: 32px;
+    width: 68px;
+    margin: 0 8px;
+    height: 32px;
+    background: linear-gradient(270deg,rgba(251,217,58,1) 0%,rgba(240,185,10,1) 100%);
+  }
+}
+.language-container {
+  cursor: pointer;
+  .language-text {
+    width: 60px;
+    margin-left: 16px;
+    height: 48px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+  }
+  .language-text:hover {
+    background: rgba(255, 255, 255, 0.03);
+  }
+  .language-menu {
+    position: absolute;
+    width: 120px;
+    background: #fff;
+    top: 48px;
+    right: 4px;
+    z-index: 10;
+    font-size: 14px;
+    border-radius: 6px;
+    .animation;
+    .language-menuItem {
+      height: 40px;
+      color: #212733;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 6px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+    .language-menuItem:hover {
+      background: #EDF5F8;
+    }
+    .language-menuItem:last-child {
+      border-bottom: none;
+    }
+    .active {
+      background: #EDF5F8;
+    }
+  }
+}
+.code-container {
+  cursor: pointer;
+  .code-text {
+    min-width: 60px;
+    margin: 0 16px;
+    height: 48px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+  }
+  .code-text:hover {
+    background: rgba(255, 255, 255, 0.03);
+  }
+  .code-menu {
+    position: absolute;
+    background: #fff;
+    top: 48px;
+    font-size: 14px;
+    z-index: 10;
+    .animation;
+    .code-menuItem {
+      width: 130px;
+      height: 148px;
+    }
+    .code-menuItem img {
+      width: 88px;
+      height: 88px;
+    }
+    .code-menuItem span {
+      color: #212733;
+      text-align: center;
+      margin-top: 8px;
+    }
+  }
+}
+.tool-container {
+  cursor: pointer;
+  .tool-text {
+    min-width: 60px;
+    height: 48px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+  }
+  .tool-text:hover {
+    background: rgba(255, 255, 255, 0.03);
+  }
+  .tool-menu {
+    position: absolute;
+    width: 120px;
+    background: #fff;
+    top: 48px;
+    z-index: 10;
+    font-size: 14px;
+    .animation;
+    .tool-item {
+      width: 120px;
+      height: 40px;
+      color: #212733;
+      line-height: 40px;
+      text-align: center;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+    .tool-item:hover {
+      background: #EDF5F8;
+    }
+    .tool-item:last-child {
+      border-bottom: none;
+    }
+  }
+}
+.user-container {
+  cursor: pointer;
+  .user-text {
+    min-width: 60px;
+    height: 48px;
+    margin: 0 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+  }
+  .user-text:hover {
+    background: rgba(255, 255, 255, 0.03);
+  }
+  .user-menu {
+    position: absolute;
+    width: 120px;
+    background: #fff;
+    top: 48px;
+    z-index: 10;
+    font-size: 14px;
+    .animation;
+    .user-item {
+      width: 120px;
+      height: 40px;
+      color: #212733;
+      line-height: 40px;
+      text-align: center;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+    .user-item:hover {
+      background: #EDF5F8;
+    }
+    .user-item:last-child {
+      border-bottom: none;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "futures.table.position.thead1",
+    "defaultMessage": "Futures",
+    "description": "合约"
+  },
+  {
+    "id": "futures.table.position.thead2",
+    "defaultMessage": "Amount",
+    "description": "持仓量"
+  },
+  {
+    "id": "futures.table.position.thead3",
+    "defaultMessage": "Open",
+    "description": "开仓价格"
+  },
+  {
+    "id": "futures.table.position.thead4",
+    "defaultMessage": "Mark",
+    "description": "标记价格"
+  },
+  {
+    "id": "futures.table.position.thead5",
+    "defaultMessage": "Strong",
+    "description": "强平价格"
+  },
+  {
+    "id": "futures.table.position.thead6",
+    "defaultMessage": "Rate",
+    "description": "保证金比率"
+  },
+  {
+    "id": "futures.table.position.thead7",
+    "defaultMessage": "Margin",
+    "description": "保证金"
+  },
+  {
+    "id": "futures.table.position.thead8",
+    "defaultMessage": "Return",
+    "description": "未实现盈亏(回报率)"
+  },
+  {
+    "id": "futures.table.position.thead9",
+    "defaultMessage": "Realized",
+    "description": "已实现盈亏"
+  },
+  {
+    "id": "futures.table.position.thead10",
+    "defaultMessage": "Close",
+    "description": "平仓"
+  },
+  {
+    "id": "futures.table.position.close.limit",
+    "defaultMessage": "Limit",
+    "description": "限价"
+  },
+  {
+    "id": "futures.table.position.close.market",
+    "defaultMessage": "Market",
+    "description": "市价"
+  },
+  {
+    "id": "futures.table.position.more",
+    "defaultMessage": "More",
+    "description": "多"
+  },
+  {
+    "id": "futures.table.position.less",
+    "defaultMessage": "Empty",
+    "description": "空"
+  }
+]

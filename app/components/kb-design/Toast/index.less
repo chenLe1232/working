@@ -1,0 +1,40 @@
+.toast-default {
+  background: #2DBD85;
+  color: #fff;
+  min-width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  z-index: 20;
+}
+.toast {
+  animation: drops 3s ease-in forwards;
+}
+@keyframes drops {
+  0% {
+    transform: translate(0, 130%);
+  }
+  7% {
+    transform: translate(0, 0);
+  }
+  93% {
+    transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(0, 130%);
+  }
+}
+.toast-success {
+  background: #2DBD85;
+}
+.toast-error {
+  background: #E0284A;
+}
+.toast-warn {
+  background: #F0B90A;
+}

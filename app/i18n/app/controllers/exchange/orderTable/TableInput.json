@@ -1,0 +1,12 @@
+[
+  {
+    "id": "exchange.table.input.limits",
+    "defaultMessage": "Limits",
+    "description": "限价"
+  },
+  {
+    "id": "exchange.table.input.markets",
+    "defaultMessage": "Markets",
+    "description": "市价"
+  }
+]

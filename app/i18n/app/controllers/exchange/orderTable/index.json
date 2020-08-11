@@ -1,0 +1,37 @@
+[
+  {
+    "id": "futures.table.tab.hold",
+    "defaultMessage": "Hold Position",
+    "description": "持有仓位"
+  },
+  {
+    "id": "futures.table.tab.current",
+    "defaultMessage": "Current commission({length})",
+    "description": "当前委托({length})"
+  },
+  {
+    "id": "futures.table.tab.history",
+    "defaultMessage": "Historical commission",
+    "description": "历史委托"
+  },
+  {
+    "id": "futures.table.tab.deal",
+    "defaultMessage": "Historical deal",
+    "description": "历史成交"
+  },
+  {
+    "id": "futures.table.tab.strong",
+    "defaultMessage": "Historical strong",
+    "description": "历史强平"
+  },
+  {
+    "id": "futures.table.tab.flow",
+    "defaultMessage": "Capital flow",
+    "description": "资金流水"
+  },
+  {
+    "id": "futures.table.deal.all",
+    "defaultMessage": "Cancel all",
+    "description": "全部撤销"
+  }
+]

@@ -1,0 +1,105 @@
+.widget-tab{
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1 0 auto;
+  position: relative;
+  border-bottom: 1px solid #DBDBDC;
+  +.control-box,+ .flexbox-layout > .control-box {
+    border-top:0;
+  }
+
+  &.inline-tab{
+    flex: none;
+  }
+  .widget-header {
+    padding-left:30px;
+    box-sizing: border-box;
+    .widget-tab-item {
+      display: inline-block;
+      line-height: 1.5em;
+      padding: 5px 22px;
+      color:#fff;
+      font-size: .875rem;
+      margin: 0 1px;
+      border-top: 2px solid rgba(255,255,255,0);
+      background-color:rgba(0,0,0,0.2);
+      .show-more{
+        cursor: pointer;
+      }
+      &:hover {
+        color: #458DF9;
+      }
+      &.active {
+        color: #141c27;
+        font-weight: bold;
+        border-top: 2px solid #458DF9;
+         background-color:rgba(0,0,0,0.4);
+      }
+    }
+  }
+  .widget-content{
+    flex: 1 1 auto;
+    display: flex;
+    font-size: .75rem;
+  }
+}
+.tab-fullfill{
+  font-size: .75rem;
+  border:0;
+  >.widget-header {
+    padding-left: 10px;
+    border:0;
+    background: #f7f6f6;
+    box-shadow: 0 0 2px rgba(0,0,0,.24);
+    .widget-tab-item {
+      color:#757575;
+      background: #fff;
+      padding:6px 20px;
+      font-size: .75rem;
+      &:hover {
+        color: #458DF9;
+      }
+      &.active {
+        color: #fff;
+        background: #458DF9;
+        border:0;
+      }
+    }
+  }
+}
+.tab-horizontal {
+  .widget-header {
+    height: 35px;
+    .widget-tab-item {
+      display: inline-block;
+      line-height: 35px;
+      padding: 0 15px;
+      &:hover {
+        background-color: #458ef9;
+      }
+      &.active {
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color: #458ef9;
+      }
+    }
+  }
+}
+.tab-vertical {
+  .widget-header {
+    .widget-tab-item {
+      display: block;
+      height: 35px;
+      line-height: 35px;
+      padding: 0 10px;
+      &:hover {
+        background-color: #458ef9;
+      }
+      &.active {
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color: #458ef9;
+      }
+    }
+  }
+}

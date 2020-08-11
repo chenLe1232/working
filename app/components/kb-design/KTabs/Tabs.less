@@ -1,0 +1,92 @@
+@import '../styles//variables.less';
+
+.kb-tabs{
+width: 100%;
+position: relative;
+.tabs-item{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding-inline-start: 0;
+  padding: 0;
+  border-bottom: @tabs-item-border-width  solid @tabs-item-border-color;
+}
+.tabs-pane{
+  position: relative;
+  font-family: @tab-pane-font-family;
+  font-size: @tab-pane-font-size;
+  line-height: @tab-pane-line-height;
+  cursor: pointer;
+  color: @tab-pane-color;
+  padding: @tab-pane-padding-x;
+  &:hover{
+    color: @tab-pane-color-active;
+  }
+}
+.is-active{
+  color: @tab-pane-color-active;
+  padding-bottom: @tab-pane-padding-x - @tabs-item-border-width;
+  border-bottom: @tabs-item-border-width solid @tab-pane-border-color-active;
+}
+.tabpane-sub{
+  position: relative;
+  .tabpane-title{
+    display: inline-block;
+    padding: 10px 0 10px 10px;
+    color:  @tab-pane-color;
+    cursor: pointer;
+    font-size: 14px;
+    &:hover{
+      color: @white;
+    }
+  }
+  .tabpane-icon{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    svg{
+      position: relative;
+      top: -1px;
+    }
+  }
+  &.is-active{
+    color: @tab-pane-color-active;
+    border-bottom: @tabs-item-border-width solid @tab-pane-border-color-active;
+  }
+}
+}
+
+.tabs-detail{
+  // 加了padding 这里宽度就不用给 继承剩余的 避免盒子撑开
+  // width: 100%;
+  padding-top: @tabs-detail-padding-y;
+  // 默认给个颜色吧 做测试用
+  color: @tab-pane-color-active;
+}
+
+.kb-tabpanesub{
+  display: none;
+  text-align: center;
+  background: #000;
+  border-radius: 2px;
+  list-style: none;
+  padding-left: 0;
+  white-space: nowrap;
+  position: absolute;
+  top: 20px;
+  right: 2px;
+  z-index: 200;
+  &.tabpane-open{
+    display: block;
+  }
+}

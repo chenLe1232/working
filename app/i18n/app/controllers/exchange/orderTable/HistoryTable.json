@@ -1,0 +1,127 @@
+[
+  {
+    "id": "futures.table.position.thead1",
+    "defaultMessage": "Futures",
+    "description": "合约"
+  },
+  {
+    "id": "futures.table.deal.time",
+    "defaultMessage": "Time",
+    "description": "时间"
+  },
+  {
+    "id": "futures.table.deal.type",
+    "defaultMessage": "Type",
+    "description": "类型"
+  },
+  {
+    "id": "futures.table.deal.direction",
+    "defaultMessage": "Direction",
+    "description": "方向"
+  },
+  {
+    "id": "futures.table.deal.price",
+    "defaultMessage": "Price",
+    "description": "委托价"
+  },
+  {
+    "id": "futures.table.deal.amount",
+    "defaultMessage": "Commission",
+    "description": "委托量"
+  },
+  {
+    "id": "futures.table.deal.volume",
+    "defaultMessage": "Volume",
+    "description": "成交量"
+  },
+  {
+    "id": "futures.table.deal.average",
+    "defaultMessage": "Average",
+    "description": "成交均价"
+  },
+  {
+    "id": "futures.table.deal.trigger",
+    "defaultMessage": "Triggers",
+    "description": "触发条件"
+  },
+  {
+    "id": "futures.table.deal.status",
+    "defaultMessage": "Status",
+    "description": "状态"
+  },
+  {
+    "id": "futures.table.order.stopBy0",
+    "defaultMessage": "Price Mark",
+    "description": "标记价格"
+  },
+  {
+    "id": "futures.table.order.stopBy1",
+    "defaultMessage": "Price Latest",
+    "description": "最新成交"
+  },
+  {
+    "id": "futures.table.order.stopBy2",
+    "defaultMessage": "Price Index",
+    "description": "指数价格"
+  },
+  {
+    "id": "futures.table.order.oType0",
+    "defaultMessage": "Invalid",
+    "description": "未指定"
+  },
+  {
+    "id": "futures.table.order.oType1",
+    "defaultMessage": "Limit",
+    "description": "限价委单"
+  },
+  {
+    "id": "futures.table.order.oType2",
+    "defaultMessage": "Market",
+    "description": "市价委单"
+  },
+  {
+    "id": "futures.table.order.oType3",
+    "defaultMessage": "StopLimit",
+    "description": "限价止损/盈利"
+  },
+  {
+    "id": "futures.table.order.oType4",
+    "defaultMessage": "StopMarket",
+    "description": "市价止损/盈利"
+  },
+  {
+    "id": "futures.table.order.oType5",
+    "defaultMessage": "TraceLimit",
+    "description": "追踪限价"
+  },
+  {
+    "id": "futures.table.order.oType6",
+    "defaultMessage": "TraceMarket",
+    "description": "追踪市价"
+  },
+  {
+    "id": "futures.table.direction.more",
+    "defaultMessage": "More",
+    "description": "开多"
+  },
+  {
+    "id": "futures.table.direction.empty",
+    "defaultMessage": "Empty",
+    "description": "开空"
+  },
+  {
+    "id": "futures.table.deal.canceled",
+    "defaultMessage": "Canceled",
+    "description": "已撤销"
+  },
+  {
+    "id": "futures.table.deal.partDeal",
+    "defaultMessage": "Parts",
+    "description": "部分成交"
+  },
+  {
+    "id": "futures.table.deal.completed",
+    "defaultMessage": "Completed",
+    "description": "已成交"
+  }
+]

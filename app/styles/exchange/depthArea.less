@@ -1,0 +1,32 @@
+.depth-container {
+  color: #ffffff;
+  height: 100%;
+  .tabs-detail {
+    padding-top: 0;
+  }
+  .table-striped tbody tr {
+    height: 20px;
+  }
+  .flex-col-1.relative {
+    max-height: 100%;
+    flex: 1;
+  }
+  .depth-last {
+    font-size: 16px;
+    line-height: 32px;
+    padding: 6px 12px;
+    border-top: 1px solid hsla(0,0%,100%,.06);
+    border-bottom: 1px solid hsla(0,0%,100%,.06);
+  }
+  .depth-both-panel {
+    max-height: calc(100% - 50px);
+    .table-header {
+      max-height: 22px;
+    }
+    .table-root {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+  }
+}

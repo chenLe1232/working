@@ -1,0 +1,22 @@
+[
+  {
+    "id": "fill.title",
+    "defaultMessage": "Market Trades",
+    "description": "最新成交"
+  },
+  {
+    "id": "fill.price",
+    "defaultMessage": "Price",
+    "description": "价格"
+  },
+  {
+    "id": "fill.amount",
+    "defaultMessage": "Amount",
+    "description": "数量"
+  },
+  {
+    "id": "fill.date",
+    "defaultMessage": "Date",
+    "description": "时间"
+  }
+]

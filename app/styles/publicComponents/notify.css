@@ -1,0 +1,47 @@
+.notice-list {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  width:300px;
+  .alert{
+    position: relative;
+    padding: 10px 10px;
+    background-image: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    > p,
+    > ul {
+      margin-top: 0;
+    }
+    > p + p {
+      margin-top: 5px;
+    }
+    .close{
+      position: absolute;
+      top: 0px;
+      right: 5px;
+      line-height: inherit;
+      cursor: pointer;
+      .iconfont {
+        font-size: 12px;
+      }
+    }
+  }
+  .alert-success{
+    color: #fff;
+    background-color: #30a039;
+  }
+  .alert-info{
+    color: #fff;
+    background-color: #4d8def;
+  }
+  .alert-warning{
+    color: #fff;
+    background-color: #ff9326;
+  }
+  .alert-error{
+    color: #fff;
+    background-color: #e90d0b;
+  }
+}

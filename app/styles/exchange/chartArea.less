@@ -1,0 +1,103 @@
+.chart-area {
+  color: #fff;
+  background-color: #171A22;
+  .top-bar {
+    height: 56px;
+    line-height: 56px;
+    border-bottom: 1px solid hsla(0,0%,100%,.06);
+    .mark {
+      margin: 9px 0;
+    }
+    .coin-info {
+      width: 80%;
+    }
+    .coin-info-item {
+      margin: 12px 0 8px 0;
+    }
+  }
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1
+  }
+  .chart-topbar {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #848D9B;
+    margin-right: 8px;
+    .studies-item {
+      background: transparent;
+      border: 0;
+      font-size: 12px;
+      font-weight: 500;
+      color: #848D9B;
+      outline: none;
+      cursor: pointer;
+      &:hover {
+        color: #F0B90A;
+      }
+    }
+    .chart-button {
+      border-top: 1px solid;
+      border-bottom: 1px solid;
+      box-sizing: border-box;
+      // &.hover.button {
+      //   border-left: 1px solid #F0B90A;
+      // }
+    }
+    .select-tradingView {
+      & button:first-child {
+        color: #F0B90A;
+        border-left: 1px solid;
+        border-right: 1px solid;
+      }
+      & button:nth-child(2) {
+        border-right: 1px solid;
+      }
+    }
+    .select-depth {
+      & button:first-child {
+        border-left: 1px solid;
+      }
+      & button:nth-child(2) {
+        color: #F0B90A;
+        border-left: 1px solid;
+        border-right: 1px solid;
+      }
+    }
+  }
+  //左侧选币列表
+  .left-product{
+    position: absolute;
+    width: 300px;
+    background-color: #12151B;
+  }
+  .product-display {
+    position: absolute;
+    overflow: hidden;
+    margin-top: 56px;
+    height: calc(100% - 108px);
+    z-index: 10;
+    transition: transform .2s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+  }
+  .product-hidden {
+    position: absolute;
+    height: calc(100% - 108px);
+    margin-top: 56px;
+    transform: translateX(-300px);
+    z-index: 5;
+    transition: transform .2s ease-in-out;
+  }
+  .product-table {
+    height: 100%;
+    .flex-col-1.relative{
+      max-height: initial;
+      height: 100%;
+    }
+    .table-striped tbody tr{
+      height: 36px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "product.title.future",
+    "defaultMessage": "Future",
+    "description": "合约"
+  },
+  {
+    "id": "product.title.price",
+    "defaultMessage": "Price",
+    "description": "最新价"
+  },
+  {
+    "id": "product.title.change",
+    "defaultMessage": "Change",
+    "description": "涨跌幅"
+  },
+  {
+    "id": "product.tab.favourite",
+    "defaultMessage": "Favourite",
+    "description": "自选"
+  },
+  {
+    "id": "product.tab.usdt",
+    "defaultMessage": "USDT",
+    "description": "USDT"
+  },
+  {
+    "id": "product.tab.coin",
+    "defaultMessage": "Coin",
+    "description": "币本位"
+  }
+]

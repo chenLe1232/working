@@ -1,0 +1,100 @@
+.dropdown {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  .btn{
+    position: relative;
+    color:#b2ceee;
+    background: none;
+    border:1px solid transparent;
+    padding: 5px 25px;
+    line-height: 1;
+    border-radius: 12px;
+    .iconfont{
+      font-size: 12px;
+      color:#056ab6;
+      &.icon-arrow{
+        position: absolute;
+        top:6px;
+        right: 10px;
+      }
+    }
+  }
+  .dropdown-toggle{
+    border:1px solid rgba(255,255,255,0.1);
+  }
+  .dropdown-label {
+    cursor: pointer;
+  }
+  .dropdown-main {
+    background-color:rgba(0,0,0,0.4);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    min-width: 9em;
+    position: absolute;
+    right:0;
+    top: 38px;
+    z-index: 999;
+    display: none;
+    .list {
+      li.search-list{
+        padding:5px;
+      }
+      a {
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 30px;
+        text-align: left;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+        overflow: hidden;
+        color: #ffffff;
+        cursor: pointer;
+        &:hover {
+          background-color: rgba(255,255,255,0.4);
+        }
+      }
+    }
+  }
+  &.active {
+    .dropdown-main {
+      display: block;
+      &::before{
+        position: absolute;
+        top: -5px;
+        right: 11px;
+        width: 0;
+        height: 0;
+        content:'';
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid rgba(0,0,0,.12);
+      }
+      &::after{
+        content: '';
+        position: absolute;
+        top: -4px;
+        right: 12px;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 4px solid rgba(0,0,0,0.4);
+      }
+      &.over-left{
+        left:0;
+        &::before{
+          left: 11px;
+        }
+        &::after{
+          left: 12px;
+        }
+      }
+      .search-box{
+        margin:0 10px;
+        padding:5px 0;
+        border-bottom: 1px solid #dedede;
+      }
+    }
+  }
+}

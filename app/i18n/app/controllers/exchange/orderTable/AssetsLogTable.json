@@ -1,0 +1,142 @@
+[
+  {
+    "id": "futures.table.deal.time",
+    "defaultMessage": "Time",
+    "description": "时间"
+  },
+  {
+    "id": "futures.table.deal.type",
+    "defaultMessage": "Type",
+    "description": "类型"
+  },
+  {
+    "id": "futures.table.deal.assets",
+    "defaultMessage": "Assets",
+    "description": "资产种类"
+  },
+  {
+    "id": "futures.table.deal.total",
+    "defaultMessage": "Total",
+    "description": "总额"
+  },
+  {
+    "id": "futures.table.walletLog.option0",
+    "defaultMessage": "Invalid Option",
+    "description": "非法操作"
+  },
+  {
+    "id": "futures.table.walletLog.option1",
+    "defaultMessage": "Deposit",
+    "description": "存钱"
+  },
+  {
+    "id": "futures.table.walletLog.option2",
+    "defaultMessage": "Withdraw",
+    "description": "取钱"
+  },
+  {
+    "id": "futures.table.walletLog.option3",
+    "defaultMessage": "Realized profit and loss",
+    "description": "已实现盈亏"
+  },
+  {
+    "id": "futures.table.walletLog.option4",
+    "defaultMessage": "Spot Trading",
+    "description": "现货交易"
+  },
+  {
+    "id": "futures.table.walletLog.option5",
+    "defaultMessage": "Transfer 1 to many",
+    "description": "一账户与多账户操作"
+  },
+  {
+    "id": "futures.table.walletLog.option6",
+    "defaultMessage": "Realized profit and loss",
+    "description": "逐仓-已实现盈亏"
+  },
+  {
+    "id": "futures.table.walletLog.option7",
+    "defaultMessage": "Gift",
+    "description": "礼金"
+  },
+  {
+    "id": "futures.table.walletLog.option9",
+    "defaultMessage": "Query",
+    "description": "查询"
+  },
+  {
+    "id": "futures.table.walletLog.option17",
+    "defaultMessage": "Gift Give",
+    "description": "礼金给予"
+  },
+  {
+    "id": "futures.table.walletLog.option18",
+    "defaultMessage": "Wallet Settle",
+    "description": "钱包结算"
+  },
+  {
+    "id": "futures.table.walletLog.option19",
+    "defaultMessage": "Gift Settle",
+    "description": "礼金结算"
+  },
+  {
+    "id": "futures.table.walletLog.option20",
+    "defaultMessage": "Gift Settle BY Coin Vip",
+    "description": "针对币种Vip礼金结算"
+  },
+  {
+    "id": "futures.table.walletLog.option99",
+    "defaultMessage": "Wallet Reset",
+    "description": "钱包数据重置"
+  },
+  {
+    "id": "futures.walletsLog.liquid",
+    "defaultMessage": "Liquidation close",
+    "description": "强制平仓"
+  },
+  {
+    "id": "futures.walletsLog.reduce",
+    "defaultMessage": "Auto reduce position",
+    "description": "自动减仓"
+  },
+  {
+    "id": "futures.walletsLog.futurestransferIn",
+    "defaultMessage": "TransferIn",
+    "description": "账户划入"
+  },
+  {
+    "id": "futures.walletsLog.delivery",
+    "defaultMessage": "Delivery liquidation",
+    "description": "交割结算"
+  },
+  {
+    "id": "futures.walletsLog.ordinary",
+    "defaultMessage": "Ordinary transactoin",
+    "description": "普通交易"
+  },
+  {
+    "id": "futures.walletsLog.futurestransferOut",
+    "defaultMessage": "TransferOut",
+    "description": "账户划出"
+  },
+  {
+    "id": "futures.walletsLog.capital",
+    "defaultMessage": "Capital cost",
+    "description": "资金费用"
+  },
+  {
+    "id": "futures.walletsLog.closing",
+    "defaultMessage": "Closing settlement",
+    "description": "平仓结算"
+  },
+  {
+    "id": "futures.walletsLog.gift",
+    "defaultMessage": "Futures bonus",
+    "description": "合约赠金"
+  },
+  {
+    "id": "futures.walletsLog.fee",
+    "defaultMessage": "Fee",
+    "description": "手续费"
+  }
+]
